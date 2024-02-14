@@ -1,0 +1,73 @@
+.left-t > :nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.left-t {
+  flex: 1;
+}
+.right-t {
+  flex: 1;
+  position: relative;
+}
+
+.right-t > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 17rem;
+  right: 7rem;
+  top: 4rem;
+  background: var(--planCard);
+}
+
+.arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: -2rem;
+  /* top: 2rem; */
+  left: 3rem;
+}
+
+.arrows > svg {
+  width: 1.5rem;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    flex-direction: column !important;
+  }
+  .left-t > :nth-child(2),
+  .left-t > :nth-child(3) {
+    font-size: xx-large !important;
+  }
+
+  .right-t {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+  }
+
+  .right-t > div {
+    position: relative !important;
+    display: none !important;
+  }
+
+  .right-t > img {
+    top: 0 !important;
+    right: 0 !important;
+    position: relative !important;
+    align-self: center !important;
+  }
+
+  .right-t > :last-child {
+    display: flex !important;
+    bottom: 0 !important;
+    left: 0 !important;
+  }
+}

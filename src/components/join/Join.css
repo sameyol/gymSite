@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .join {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .left-j {
+    font-size: x-large !important;
+    flex-direction: column !important;
+  }
+
+  .right-j {
+    padding: 2rem !important;
+  }
+  .email-container {
+    padding: 4px !important;
+  }
+  .btn-j {
+    font-size: 11px;
+    padding: 2px 1px !important;
+  }
+}

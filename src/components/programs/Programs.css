@@ -1,0 +1,19 @@
+.category div:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .programs-header {
+    /* flex-direction: column !important; */
+    gap: 1rem !important;
+    font-size: x-large !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem !important;
+  }
+  /* .category {
+    flex-direction: column !important;
+  }
+} */
+}
